@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;1,100&display=swap');
+html, body{font-family: 'Poppins', sans-serif;}
+/*---------------------
+	Custom CSS
+-----------------------*/
+.modal{z-index: 10012 !important;}
+.txt-rt{text-align:right;}/* text align right */
+.txt-lt{text-align:left;}/* text align left */
+.txt-center{text-align:center;}/* text align center */
+.float-rt{float:right;}/* float right */
+.float-lt{float:left;}/* float left */
+.clear{clear:both;}/* clear float */
+.col-centered{
+    float: none;
+    margin: 0 auto;
+}
+.staffName{padding:5px;}
+.no-padding{padding:0 !important;}
+.no-margin{margin:0}
+.cntntBx{background:#fff;}
+.full-width{width:100% !important;}
+.footer_content{text-align:left;}
+.err-block{width:100%;color:#8c0000;font-size:14px;text-align:left; }
+.errBox{width:100%;height:15px;padding:1px;text-align:left;}
+.appTitle{width:100%;text-align:center;padding:20px;background: #ffbba4 url('../img/texture1.png') left top repeat;border-bottom:3px solid #001040;}
+.appTitle img{width:120px;height:120px;}
+.appBx{margin:10px 0;}
+.clgname{font-size:24px;font-weight:bold;color:#001040;margin:5px 0;}
+.clgAddLine1,.clgAddLine2{font-size:18px;font-weight:bold;color:#001040;margin:5px 0;}
+.alert-pink
+{
+	background:#ffe8ee;
+	border-color:#ff7396;
+}
+
+.rcptNoTB{background:#bfffff;color:#b30000;font-weight:bold;}
+.feeAmtTB{background:#ffcfbf;color:#b30000;font-weight:bold;}
+.form-control[disabled], .form-control[readonly] {
+	color: #646473;
+	background:#EEEEEE;color:#646473;font-weight:bold;
+}
+#getOTP{display:block ;}
+#otpBlock,#subCombXHintBx,#degSubjBX{color:#00468c;display:none;}
+#verifyOTPBtn, #otpCodeBlock,.confirmStage1,#subjectsPane,#marksPane{display:none ;}
+#otpTime{font-size:14px; font-weight:bold;color:#b30086;}
+.footerBox{padding:10px;background: #ffbba4 url('../img/texture1.png') left top repeat;color:#001040;border-top:1px solid #004a95;text-align:center}
+#footTitle{font-size:16px;font-weight:bold;}
+#regBxOuter{min-height:360px;}
+.tab-content{border:1px solid #dedede;}
+.nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus, .nav-tabs > .dropdown.active.open > a:hover {
+	border: 1px solid #dedede;;
+	border-top: 2px solid #57a9a8;
+	background: #e6f2f2;
+	-moz-border-radius: 3px 3px 0px 0px;
+	-webkit-border-radius: 3px 3px 0px 0px;
+	border-radius: 3px 3px 0px 0px;
+}
+hr.style-two {
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
+
+.appPanelTitle{color:#00468c;font-size:16px;text-decoration:underline;margin:5px 0;}
+.payText{font-size:12px;}
+.payLiteral{font-size:24px;color:#215c9e;}
+.razorpay-payment-button {
+        color: #ffffff !important;
+        background-color: #7266ba;
+        border-color: #7266ba;
+        font-size: 14px;
+        padding: 10px;
+ }
+
+.mySelect{width:100%;height:28px;border:1px solid #D5D5D5;}
+.frmRow{margin:10px 12px;}
+.frmRow2{margin:2px 3px;}
+.frmDropDown{width:100%;height:30px;}
+.ui-datepicker { position: relative;z-index:100000 !important;}
+#paymentsBx{background:#215c9e;padding:40px !important;font-size:12px;font-weight:normal;}
+
+
+
+
+
+
+
+/**************************************************
+START MEDIA QUERIES- Victor 17/05/2020
+**************************************************/
+/* for 980px or less */
+@media screen and (max-width: 980px) {
+		
+}
+
+/* for 700px or less iPads to Tablets  */
+@media screen and (max-width: 600px) {
+	
+
+	
+
+}
+
+
+
+/* for 480px or less */
+@media screen and (max-width: 480px) {
+	.appTitle{padding:10px;}
+	.appTitle img{width:80px;height:80px;}
+	.clgname{font-size:14px;font-weight:bold;color:#004a95;line-height:14px;margin:0}
+	.clgAddLine1{font-size:18px;font-weight:bold;color:#004a95;margin:5px 0;line-height:16px;margin:0}
+	.clgAddLine1,.clgAddLine2{font-size:12px;font-weight:bold;color:#004a95;margin:5px 0;line-height:12px;margin:0}
+	#regBxOuter{min-height:auto;height:auto;}
+	.picker__select--year{width:30%;font-size:12px;margin:0 3px;}
+	.picker__select--month{width:20%;font-size:12px;margin:0 3px;}
+	#paymentsBx{padding:5px;}
+}
+
+@media only screen and (min-width : 768px) and (max-width : 1024px)  {
+  
+		
+	
+}
+
+
+@media only screen and (max-width: 1920px) and  (max-height: 1080px) and (min-width: 1280px){
+   
+}
+
+
+@media only screen and (min-width: 1600px){
+   
+}

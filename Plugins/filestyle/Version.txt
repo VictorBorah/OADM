@@ -1,0 +1,2 @@
+Bootstrap Filestyle: v1.2.3
+http://markusslima.github.io/bootstrap-filestyle/1.2.3/
